@@ -2,9 +2,7 @@ from src.core.models.mock_restaurant import create_mock_restaurant
 from .add_restaurant import AddRestaurant
 from src.persistent.MySQL.repositories.restaurant_repository import RestaurantRepository
 from .get_restaurant import GetRestaurant
-from faker import Faker as Mocker
 
-mocker = Mocker()
 
 def test_add_restaurant():
     add_restaurant = AddRestaurant(RestaurantRepository())
