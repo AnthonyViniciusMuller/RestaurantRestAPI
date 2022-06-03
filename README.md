@@ -15,9 +15,10 @@ There are two services, one called 'app.py' to run the API, it will be visible i
 
 To run then, just use your python interpreter and the file name: `/usr/bin/python app.py`
 
-The json to be sent to POST and PUT  methods needs to be with this orgazation:
+The json to be sent to POST and PUT methods needs to be with this orgazation, with the only fields that can't be null are 'name' and 'postal_code'
 
-`{
+```
+{
     "address": "800 N Canal Blvd",
     "categories": [
         "American Restaurant",
@@ -36,6 +37,4 @@ The json to be sent to POST and PUT  methods needs to be with this orgazation:
         "http://www.sonicdrivein.com",
         "https://locations.sonicdrivein.com/la/thibodaux/800-north-canal-boulevard.html"
     ]
-}`
-
-The onlys fields that can't be null are 'name' and 'postal_code'
+}
