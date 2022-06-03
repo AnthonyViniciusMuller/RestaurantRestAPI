@@ -1,0 +1,4 @@
+from .get_restaurant_composite import get_restaurant_composer
+from .delete_restaurant_composite import delete_restaurant_composer
+from .add_restaurant_composite import add_restaurant_composer
+from .update_restaurant_composite import update_restaurant_composer
